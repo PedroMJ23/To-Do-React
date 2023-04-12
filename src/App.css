@@ -1,38 +1,103 @@
-.App {
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 20px;
+
+}
+
+h1 {
+  font-size: 30px;
+
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-text {
+  height: 35px;
+  width: 250px;
+  font-size: 20px;
+  border-radius: 7px;
+}
+
+.input-btn {
+  height: 35px;
+  width: 150px;
+  border-radius: 7px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  /* background: grey; */
+
+}
+
+.titulo2 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tasks-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background: red; */
+}
+
+.list-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: red; */
+  flex-wrap: wrap;
+  padding: 3px;
+  width: 500px;
+  min-height: 30px;
+  border-radius: 15px;
+  border: red solid 2px;
+  gap: 15px;
+}
+
+.span-list {
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  width: 250px;
+  margin: 5px;
+
+
+}
+.btn-form{
+  height: 35px;
+  width: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-borrar-todo{
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* font-size: 15px; */
+  font-weight: 600;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }
