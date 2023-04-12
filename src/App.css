@@ -89,11 +89,12 @@ h1 {
 }
 .btn-borrar-todo{
   height: 35px;
-  width: 100px;
+  width: 130px;
   border-radius: 5px;
   cursor: pointer;
   /* font-size: 15px; */
   font-weight: 600;
+  overflow-wrap: break-word;
 }
 
 @media (prefers-reduced-motion: no-preference) {
