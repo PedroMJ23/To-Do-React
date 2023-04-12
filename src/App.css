@@ -70,6 +70,7 @@ h1 {
   border-radius: 15px;
   border: red solid 2px;
   gap: 15px;
+
 }
 
 .span-list {
@@ -81,13 +82,15 @@ h1 {
 
 
 }
-.btn-form{
+
+.btn-form {
   height: 35px;
   width: 80px;
   border-radius: 5px;
   cursor: pointer;
 }
-.btn-borrar-todo{
+
+.btn-borrar-todo {
   height: 35px;
   width: 130px;
   border-radius: 5px;
@@ -101,4 +104,14 @@ h1 {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+@media (max-width: 767px) {
+
+  .list-span {
+    text-align: center;
+    width: 250px;
+
+  }
+
 }
