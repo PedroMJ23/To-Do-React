@@ -27,12 +27,12 @@ function App() {
 
     setTasks('');
 
-    console.log(taskList);
+    //console.log(taskList);
   };
   const handleChange = (e) => {
     //e.preventDefault();
     setTasks(e.target.value)
-    console.log(tasks)
+    //console.log(tasks)
 
   };
   const deleteTasks = (id) => {

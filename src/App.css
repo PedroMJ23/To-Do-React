@@ -98,6 +98,7 @@ h1 {
   /* font-size: 15px; */
   font-weight: 600;
   overflow-wrap: break-word;
+  margin-bottom: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
